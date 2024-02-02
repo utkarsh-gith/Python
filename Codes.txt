@@ -23,3 +23,33 @@
             print(len(input("What is your name?))) -> What is your name?Utkarsh
                                                       7
 
+4. Data Types:
+    i) String - array of characters
+                written in double quotes
+                if we run - x = input("Enter your Phone number") -> The phone number will be stored as string
+                we can access each character of a string using sunscripts
+                    For eg: "Hello"[0]=H
+                            "World"[4]=d
+
+    ii) Integer - same defination as in mathematics
+                  x = 12345 or x=12_3_45 is the same
+                      underscore between the numbers is ignored
+                  if we execute: print(123+345) -> 468
+
+    iii) Float - Floating point numbers or Decimals
+                 12_34.56_78 is same as 1234.5678
+                 1234._5678 cannot be used or is invalid or is an error
+
+    iv) Boolean - True or False , 0 or 1
+
+5. type()
+    used to check the type of data; whether a n integer or float or string or any
+    For eg. x = 123
+            print(type(x))
+            Output -> <class 'int'>
+
+6. Type Casting/Conversion:
+    used to convert variables from one data type to another
+    syntax - variable_name = data_type(variable or data)
+    For eg: x = 123 -> y = str(x) or y = str(123)
+            both will give y = "123"
