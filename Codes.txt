@@ -1,0 +1,25 @@
+* To comment a line use # or command+/
+
+1. Print
+    To print a line use print("Whatever is needed to be printed")
+    Double quotes are used to show to start and end of the string
+    We can use single quotes instead of the double quotes
+    The type of quote used at the start is considered as start of the printable string
+    To combine two strings use a '+' sign. Eg: print("Hello " + "World") 
+    To print a new line use backslash n: '\n'
+
+2. Input
+    To input any value use input("Prompt")
+      The prompt will be printed before user gives the input
+    To use print with input: print("Hello " + input("What is your name\n") + "!")
+                     Output: What is your name?
+                             Utkarsh
+                             Hello Utkarsh!
+    To save the input in a variable: x = input("What is your name\n")
+
+3. len() 
+    used to find the length of the string
+    For eg: print(len("Hello World")) -> 11
+            print(len(input("What is your name?))) -> What is your name?Utkarsh
+                                                      7
+
