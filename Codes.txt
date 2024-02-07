@@ -53,3 +53,28 @@
     syntax - variable_name = data_type(variable or data)
     For eg: x = 123 -> y = str(x) or y = str(123)
             both will give y = "123"
+
+7. Operations
+    i) Addition - +
+    ii) Subtraction - -
+    iii) Multiplication - *
+    iv) Division - / (default - float)
+    v) Exponent - ** Eg. [2 ** 3 = 8]
+    vi) Modulus - %
+    vii) Floor Division - // (Rounds of values to less than or equal to the nearest integer, changes type fro float to int)
+
+Note: round() is used to round decimals.
+        For eg: round(8/3)=3
+                round(8/3,2)=2.67
+
+Note: x += 1 is x = x + 1
+      x -= 1 is x = x - 1
+      x *= 1 is x = x * 1
+      x /= 1 is x = x / 1
+
+8. f-String
+    used to print any data type in the print function without type conversion to string
+    Syntax: print(f"printable statement {variabke inside curly bracket}")
+    Eg. score=0
+        print(f"Your Score is {score}")  -> Your Score is 0
+
