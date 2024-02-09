@@ -78,3 +78,21 @@ Note: x += 1 is x = x + 1
     Eg. score=0
         print(f"Your Score is {score}")  -> Your Score is 0
 
+9. If loop
+    If cond:
+        if cond:
+            statement1
+        else:
+            statement2
+    else if cond:
+        if cond:
+            statement3
+        else:
+            statement4
+    else:
+        if cond:
+            statement5
+        else:
+            statement6
+
+        maintaining indentation is important.
