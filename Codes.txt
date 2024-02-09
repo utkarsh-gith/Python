@@ -84,7 +84,7 @@ Note: x += 1 is x = x + 1
             statement1
         else:
             statement2
-    else if cond:
+    elif cond:
         if cond:
             statement3
         else:
