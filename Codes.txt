@@ -135,4 +135,9 @@ Note: x += 1 is x = x + 1
     To remove/delete a data from index i: variable_name.pop(i)
     For eg: fruits.pop(0)    
 
+    To find the number of elements in the list: len(variable_name)
+    For Eg: len(fruits)
+
+    
+
 
