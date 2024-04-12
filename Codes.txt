@@ -109,3 +109,30 @@ Note: x += 1 is x = x + 1
               For eg: random_float = random.random() * 5
               This increases the range from [0,1) to [0,5)
 
+11. Lists
+    used to store multiple data using single variable
+    to print: print(Variable_name)
+    For eg: fruits = ["Mango" , "Pear" , "Apple" , "Banana" , "Grapes"]
+            fruits[0] = Mango
+            fruits[1] = Pear = fruits[-4]
+            fruits[2] = Apple = fruits[-3]
+            fruits[3] = Banana = fruits[-2]
+            fruits[4] = Grapes = fruits[-1]
+
+    To make changes in list assign the change to the particular index
+    For eg: fruits[2] = "Orange"
+
+    To add a data at the of the list: variable_name.append(data), variable_name.extend(data)
+    For eg: fruits.append("Pomegranate")
+            fruits.extend(["Pomegranate" , "Apple" , "Papaya"])
+
+    To add a data at index i: variable_name.insert(i,data)
+    For eg: fruits.insert(2,"Papaya")
+
+    To remove/delete a data: variable_name.remove(data)
+    For eg: fruits.remove("Apple")
+
+    To remove/delete a data from index i: variable_name.pop(i)
+    For eg: fruits.pop(0)    
+
+
