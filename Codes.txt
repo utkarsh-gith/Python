@@ -97,4 +97,15 @@ Note: x += 1 is x = x + 1
 
         maintaining indentation is important.
 
-10.
+10. Random
+
+    used to generate random numbers
+    randint(a,b): returns a random interger between a and b (both inclusive)
+        Eg: import random
+            randon_int = tandom.randint(1,10)
+            printf(random_int)
+    random(): returns the next random integer between [0,1)
+              to expand the range multiply it with an integer.
+              For eg: random_float = random.random() * 5
+              This increases the range from [0,1) to [0,5)
+
