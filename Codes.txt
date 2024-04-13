@@ -138,6 +138,14 @@ Note: x += 1 is x = x + 1
     To find the number of elements in the list: len(variable_name)
     For Eg: len(fruits)
 
+    To combine two list: list3 = [list1, list2]
+    For eg: vegetables = ["Cucumber" , "Potato", "Onion" ]
+            Eatables = [fruits, vegetables]
+    Output: [['Mango', 'Pear', 'Apple', 'Banana', 'Grapes'], ['Cucumber', 'Potato', 'Onion']]
+            Eatable[1][1] = Potato
+
+
+
     
 
 
